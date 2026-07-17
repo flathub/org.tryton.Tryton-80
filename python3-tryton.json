@@ -2,13 +2,13 @@
     "name": "python3-tryton",
     "buildsystem": "simple",
     "build-commands": [
-        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"tryton[calendar]==8.0.6\" --no-build-isolation"
+        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"tryton[calendar]==8.0.7\" --no-build-isolation"
     ],
     "sources": [
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/5f/25/4a397bbe70a07819b438e3948e2796ca9086b7aa1eb645acaee25d3074fa/GooCalendar-0.8.0-py3-none-any.whl",
-            "sha256": "ac39247add2f06190081d6e617e3ec75ac3f4a41ddaf0206f6ed7dfe24d9b6d5"
+            "url": "https://files.pythonhosted.org/packages/83/8e/60994eb83845e53c17d3b1aeb350529615718feb04d90c3d4487057f3650/goocalendar-1.0.0-py3-none-any.whl",
+            "sha256": "6814fb5f31cc970cba9601a9a11853acf71f37310af8edd614c3df1e1e203b60"
         },
         {
             "type": "file",
@@ -32,8 +32,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/3f/7d/89b1c0811b0f82eced8f7bdbfa97ed59a4882171c77cdd93aa8d32ae6f93/tryton-8.0.6-py3-none-any.whl",
-            "sha256": "f673a3f1693c00ce3ffa6f6204069cd90536666a792e9af9e95f91e498ec7d97"
+            "url": "https://files.pythonhosted.org/packages/20/81/2cb8284de8bd6dfe319afc6c82ded3e41e2a8625c1a4741ddbc578328f08/tryton-8.0.7-py3-none-any.whl",
+            "sha256": "7a25ecf86da0674b1175f0b8cffa0a85c346b70127fff536d314b43464b18b3f"
         }
     ]
 }
